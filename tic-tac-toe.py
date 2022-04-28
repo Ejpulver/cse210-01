@@ -50,7 +50,6 @@ def next_player(current):
     elif current == "x":
         return "o"
 
-if __name__ == "__main__":
     main()
 
 
