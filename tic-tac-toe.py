@@ -1,16 +1,24 @@
 """ introduction: Ponder and Prove Easton Pulver"""
 
 def board():
-    board_first_row = [1|2|3]
-    board_second_row = [4|5|6]
-    board_third_row = [7|8|9]
-    print(board_first_row)
-    print('-+-+-')
-    print(board_second_row)
-    print('-+-+-')
-    print(board_third_row)
+    board = []
+    for square in range(9):
+        board.append(square + 1)
+    return board
 
-board()
+def display_board(board):
+    print()
+    print(f'{board[0]}|{board[1]}|{board[2]}')
+    print('-+-+-')
+    print(f'{board[3]}|{board[4]}|{board[5]}')
+    print('-+-+-')
+    print(f'{board[6]}|{board[7]}|{board[8]}')
+
+def is_a_draw(board):
+    for square in range(9):
+
+
+
 
 
 
